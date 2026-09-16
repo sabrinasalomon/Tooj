@@ -104,7 +104,12 @@ El sistema se construye **por etapas**, con avances visibles y una prueba real e
 
 ## Contacto
 
-*(Pendiente)*
+¿Le interesa Tooj para su cadena de tiendas? Con gusto le muestro el sistema funcionando.
+
+**Viviana Salomón** · Desarrolladora del sistema
+
+- Correo: [vivianasalomonbol@gmail.com](mailto:vivianasalomonbol@gmail.com)
+- Teléfono: [+52 999 564 3203](tel:+529995643203)
 
 <br>
 
