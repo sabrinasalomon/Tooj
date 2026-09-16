@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tooj — Documentación</title>
+<style>
+  :root{
+    --negro:#111111; --gris-oscuro:#555555; --gris:#767676;
+    --borde:#E0E0E0; --linea:#EEEEEE; --superficie:#F2F2F2;
+    --tenue:#F7F7F7; --fondo:#FAFAFA;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fondo);color:var(--negro);
+       font-family:"Segoe UI",Arial,sans-serif;line-height:1.6;font-size:15px}
+  a{color:var(--negro)}
+
+  /* BARRA LATERAL */
+  .lateral{position:fixed;top:0;left:0;width:264px;height:100vh;overflow-y:auto;
+           background:var(--negro);color:#fff;padding:28px 0}
+  .marca{display:flex;align-items:center;gap:12px;padding:0 24px 24px}
+  .monograma{width:38px;height:38px;border-radius:10px;background:#1F1F1F;
+             display:flex;align-items:center;justify-content:center;
+             font-size:20px;font-weight:700}
+  .marca b{font-size:19px;letter-spacing:-.2px}
+  .marca span{display:block;font-size:11px;color:#BDBDBD;font-weight:400;letter-spacing:.3px}
+  .grupo{padding:18px 24px 6px;font-size:10.5px;letter-spacing:1.6px;color:#767676;font-weight:600}
+  .lateral a{display:block;padding:8px 24px;color:#BDBDBD;text-decoration:none;font-size:14px;border-left:3px solid transparent}
+  .lateral a:hover{color:#fff;background:#1A1A1A;border-left-color:#555}
+  .pie-lateral{margin-top:22px;padding:18px 24px 0;border-top:1px solid #262626;font-size:11.5px;color:#767676}
+
+  /* CONTENIDO */
+  .contenido{margin-left:264px;padding:56px 56px 96px;max-width:1100px}
+  header.portada{margin-bottom:12px}
+  .clave{font-size:11.5px;letter-spacing:3px;color:var(--gris);font-weight:600;margin-bottom:10px}
+  h1{font-size:46px;margin:0 0 6px;letter-spacing:-1px}
+  .eslogan{font-size:22px;font-weight:600;margin:0 0 6px}
+  .apoyo{color:var(--gris);margin:0 0 28px}
+  h2{font-size:26px;margin:52px 0 8px;letter-spacing:-.3px}
+  h3{font-size:17px;margin:32px 0 6px}
+  p{margin:10px 0}
+  .separador{height:1px;background:var(--linea);margin:40px 0}
+
+  .tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:20px 0}
+  .tarjeta{background:#fff;border:1px solid var(--borde);border-radius:10px;padding:18px 20px}
+  .tarjeta b{display:block;margin-bottom:4px}
+  .tarjeta span{color:var(--gris);font-size:14px}
+
+  figure{margin:18px 0 8px}
+  figure img{width:100%;border:1px solid var(--borde);border-radius:10px;display:block}
+  figcaption{color:var(--gris);font-size:13px;margin-top:8px}
+
+  table{border-collapse:collapse;width:100%;margin:16px 0;background:#fff}
+  th,td{border:1px solid var(--borde);padding:10px 14px;text-align:left;font-size:14px;vertical-align:top}
+  th{background:var(--superficie);font-size:11.5px;letter-spacing:.8px;text-transform:uppercase;color:var(--gris)}
+
+  ul{margin:10px 0;padding-left:20px}
+  li{margin:5px 0}
+  .nota{background:var(--superficie);border-radius:10px;padding:16px 20px;margin:18px 0;font-size:14px}
+  .pie{margin-top:64px;padding-top:20px;border-top:1px solid var(--linea);color:var(--gris);font-size:13px}
+
+  @media (max-width:900px){
+    .lateral{position:static;width:100%;height:auto}
+    .contenido{margin-left:0;padding:32px 20px 64px}
+    h1{font-size:34px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="lateral">
+  <div class="marca">
+    <div class="monograma">T</div>
+    <div><b>Tooj</b><span>Documentación</span></div>
+  </div>
+
+  <div class="grupo">RESUMEN</div>
+  <a href="#resumen">Qué es Tooj</a>
+  <a href="#problema">El problema</a>
+  <a href="#solucion">La solución</a>
+
+  <div class="grupo">PRODUCTO</div>
+  <a href="#caja">Caja</a>
+  <a href="#almacen">Almacén de tienda</a>
+  <a href="#existencias">Existencias y mínimos</a>
+  <a href="#central">Almacén central</a>
+  <a href="#catalogo">Catálogo y precios</a>
+
+  <div class="grupo">INGENIERÍA</div>
+  <a href="#arquitectura">Arquitectura</a>
+  <a href="#sinconexion">Trabajo sin internet</a>
+  <a href="#datos">Información que maneja</a>
+
+  <div class="grupo">ENTREGA</div>
+  <a href="#etapas">Etapas</a>
+  <a href="#preguntas">Preguntas frecuentes</a>
+
+  <div class="pie-lateral">
+    Tooj · Todo cuadra.<br>
+    © 2026. Todos los derechos reservados.
+  </div>
+</nav>
+
+<main class="contenido">
+
+  <header class="portada" id="resumen">
+    <div class="clave">SIN INTERNET · MULTITIENDA · WINDOWS</div>
+    <h1>Tooj</h1>
+    <p class="eslogan">Todo cuadra.</p>
+    <p class="apoyo">Punto de venta e inventario para cadenas de tiendas.</p>
+  </header>
+
+  <div class="tarjetas">
+    <div class="tarjeta"><b>Vende sin internet</b><span>Si se cae la conexión, la caja sigue trabajando.</span></div>
+    <div class="tarjeta"><b>Las existencias cuadran</b><span>Lo enviado se compara con lo recibido.</span></div>
+    <div class="tarjeta"><b>Un solo sistema</b><span>De la caja al almacén central.</span></div>
+    <div class="tarjeta"><b>Listo para crecer</b><span>6 tiendas, 24 cajas y catálogo único.</span></div>
+  </div>
+
+  <div class="separador"></div>
+
+  <h2 id="problema">El problema</h2>
+  <p>En una cadena de tiendas, la información de las ventas y del almacén pasa por varios sistemas antes de llegar al almacén central. En cada salto se pierde información y <b>las existencias dejan de cuadrar</b>: a veces sobra mercancía, a veces falta, y nadie sabe en qué punto se perdió.</p>
+  <p>Eso se paga todos los días: pedidos de resurtido equivocados, tiendas sin producto para vender y conteos manuales que cuestan horas.</p>
+
+  <h2 id="solucion">La solución</h2>
+  <p>Tooj cubre todo el circuito con un solo sistema:</p>
+  <p><b>Alta → Venta → Baja → Pedido → Envío → Recepción</b></p>
+  <p>Cada movimiento queda registrado en el mismo lugar, así que las cifras no dependen de que un sistema le pase datos a otro.</p>
+
+  <div class="separador"></div>
+
+  <h2 id="caja">Caja</h2>
+  <p>Pensada para escáner y teclado: las acciones frecuentes tienen tecla directa y el total se lee de lejos.</p>
+  <ul>
+    <li>Venta con escáner de código de barras</li>
+    <li>Cobro en efectivo, con tarjeta o combinando ambos</li>
+    <li>Ticket automático al aprobarse el pago</li>
+    <li>Promociones y descuento a empleados</li>
+    <li>Cancelaciones y devoluciones con autorización</li>
+    <li>Corte por turno con fondo inicial</li>
+  </ul>
+  <figure>
+    <img src="img/mockup-caja.svg" alt="Pantalla de caja">
+    <figcaption>Venta en curso, con una promoción aplicada y el aviso de que sin internet se sigue vendiendo.</figcaption>
+  </figure>
+
+  <h2 id="almacen">Almacén de tienda</h2>
+  <p>El modo Altas se activa con un botón: solo entonces los escaneos suman existencia. Con el modo apagado, pasar el escáner no cambia nada.</p>
+  <ul>
+    <li>Alta pieza por pieza</li>
+    <li>Escanear y capturar la cantidad</li>
+    <li>Código de la caja completa, con su equivalencia en piezas</li>
+    <li>Buscador para comprobar si un producto ya existe y cuántas piezas hay</li>
+  </ul>
+  <figure>
+    <img src="img/mockup-altas.svg" alt="Altas de mercancía">
+    <figcaption>Entrada de mercancía con el modo Altas activado.</figcaption>
+  </figure>
+
+  <h2 id="existencias">Existencias y mínimos</h2>
+  <p>Cada producto tiene una existencia mínima. Cuando la tienda llega a ese número, el pedido al almacén central se genera solo, sin que nadie tenga que acordarse.</p>
+  <figure>
+    <img src="img/mockup-existencias.svg" alt="Existencias y mínimos">
+    <figcaption>Productos bajo el mínimo y pedidos ya enviados.</figcaption>
+  </figure>
+
+  <h2 id="central">Almacén central</h2>
+  <p>Los pedidos llegan solos desde las tiendas. Al enviar, el sistema registra qué salió y hacia dónde; al recibir, la tienda escanea y el sistema compara las dos cifras.</p>
+  <div class="nota">Las diferencias aparecen el mismo día, con fecha, tienda y responsable. Ningún envío se cierra sin comparar lo enviado con lo recibido.</div>
+  <figure>
+    <img src="img/mockup-cedis.svg" alt="Almacén central: envíos y recepción comparada">
+    <figcaption>Pedidos automáticos y recepción comparada, con faltantes y sobrantes señalados.</figcaption>
+  </figure>
+
+  <h2 id="catalogo">Catálogo y precios</h2>
+  <p>El catálogo es único para todas las tiendas: mismo nombre, mismo código y mismo precio. La tienda puede capturar un producto nuevo, que queda pendiente de aprobación de la administración.</p>
+  <ul>
+    <li>Solo se escribe el <b>costo</b>: el precio de venta lo calcula el sistema con el margen</li>
+    <li>El código se escanea o lo genera el sistema, con impresión de etiquetas</li>
+    <li>Si el código ya existe, el sistema avisa antes de guardar</li>
+    <li>Importación de catálogos desde Excel</li>
+  </ul>
+  <figure>
+    <img src="img/mockup-producto-nuevo.svg" alt="Alta de un producto nuevo">
+    <figcaption>Alta de producto: el precio sale del costo más el margen.</figcaption>
+  </figure>
+
+  <div class="separador"></div>
+
+  <h2 id="arquitectura">Arquitectura</h2>
+  <figure>
+    <img src="img/arquitectura.svg" alt="Arquitectura de Tooj">
+  </figure>
+  <table>
+    <tr><th>Pieza</th><th>Qué hace</th></tr>
+    <tr><td>Cajas</td><td>Aplicación de escritorio para Windows. Cada caja guarda su propia copia de la información.</td></tr>
+    <tr><td>Servidor de tienda</td><td>Concentra las existencias de la tienda. Las cajas trabajan contra él por red local.</td></tr>
+    <tr><td>Servidor central</td><td>En la nube. Reúne todas las tiendas y el almacén central.</td></tr>
+    <tr><td>Sincronización</td><td>Automática y constante. Lo que ocurre sin conexión se envía al volver el internet.</td></tr>
+  </table>
+
+  <h2 id="sinconexion">Trabajo sin internet</h2>
+  <p>La venta nunca depende de la conexión:</p>
+  <ul>
+    <li>Si se cae el internet, la caja sigue cobrando con normalidad.</li>
+    <li>Si además falla el servidor de la tienda, cada caja sigue vendiendo con su copia local.</li>
+    <li>Al volver la conexión, todo se sincroniza solo y las facturas pendientes se timbran automáticamente.</li>
+  </ul>
+  <div class="nota">Cobrar con tarjeta y timbrar facturas sí necesitan internet en ese momento: son operaciones que dependen del banco y del SAT.</div>
+
+  <h2 id="datos">Información que maneja</h2>
+  <table>
+    <tr><th>Área</th><th>Información</th></tr>
+    <tr><td>Catálogo</td><td>Productos, códigos de barras, costo, precio, categoría, talla y color, piezas por caja</td></tr>
+    <tr><td>Inventario</td><td>Existencias por tienda y del almacén central, mínimos, altas y ajustes</td></tr>
+    <tr><td>Ventas</td><td>Tickets, formas de pago, promociones, devoluciones y cortes de turno</td></tr>
+    <tr><td>Movimientos</td><td>Pedidos, envíos, recepciones, diferencias y traspasos entre tiendas</td></tr>
+    <tr><td>Control</td><td>Usuarios con permisos y bitácora de quién hizo cada movimiento</td></tr>
+  </table>
+
+  <div class="separador"></div>
+
+  <h2 id="etapas">Etapas de entrega</h2>
+  <p>El sistema se construye por etapas, con avances visibles y una prueba real en tienda antes de continuar.</p>
+  <table>
+    <tr><th>Etapa</th><th>Qué incluye</th></tr>
+    <tr><td>1</td><td>Caja, almacén de tienda, almacén central, pedidos automáticos, envíos comparados y sincronización</td></tr>
+    <tr><td>2</td><td>Promociones, descuento a empleados y traspasos entre tiendas</td></tr>
+    <tr><td>3</td><td>Facturación electrónica y terminal bancaria</td></tr>
+    <tr><td>4</td><td>Puesta en marcha en todas las tiendas</td></tr>
+  </table>
+
+  <h2 id="preguntas">Preguntas frecuentes</h2>
+  <h3>¿Cuántos productos soporta?</h3>
+  <p>No hay un límite práctico. Un catálogo de miles de productos y el movimiento diario de varias tiendas es un volumen pequeño para la base de datos.</p>
+  <h3>¿Qué pasa si se va la luz o falla una computadora?</h3>
+  <p>Las demás cajas siguen vendiendo. Al volver, la caja se sincroniza con el servidor de la tienda y no se pierde ninguna venta.</p>
+  <h3>¿Se puede usar el equipo que ya tenemos?</h3>
+  <p>Sí. Tooj funciona sobre computadoras con Windows y trabaja con escáneres, impresoras de tickets, cajones de dinero e impresoras de etiquetas.</p>
+  <h3>¿Hay que pagar licencias por caja?</h3>
+  <p>No. El sistema se entrega para la operación de la cadena, sin cobro por usuario ni por caja.</p>
+
+  <div class="pie">
+    <b>Tooj</b> · Todo cuadra. · © 2026. Todos los derechos reservados.
+  </div>
+
+</main>
+</body>
+</html>

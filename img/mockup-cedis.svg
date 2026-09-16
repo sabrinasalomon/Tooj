@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1280" height="800" fill="#FAFAFA"/>
+
+  <!-- BARRA SUPERIOR -->
+  <rect x="0" y="0" width="1280" height="64" fill="#111111"/>
+  <text x="28" y="41" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Tooj</text>
+  <line x1="96" y1="18" x2="96" y2="46" stroke="#444444"/>
+  <text x="112" y="40" font-size="13" fill="#BDBDBD">CEDIS · Almacén central</text>
+  <rect x="860" y="18" width="180" height="28" rx="14" fill="#767676"/>
+  <text x="950" y="37" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Todo sincronizado</text>
+  <text x="1252" y="40" font-size="12" fill="#BDBDBD" text-anchor="end">Miguel A. · CEDIS · 13:42</text>
+
+  <!-- PEDIDOS DE LAS TIENDAS -->
+  <rect x="24" y="88" width="616" height="612" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <path d="M 24 98 a 10 10 0 0 1 10 -10 h 596 a 10 10 0 0 1 10 10 v 34 h -616 z" fill="#F2F2F2"/>
+  <text x="44" y="120" font-size="12.5" font-weight="700" fill="#111111" letter-spacing="0.6">PEDIDOS AUTOMÁTICOS DE LAS TIENDAS</text>
+  <text x="44" y="154" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.5">TIENDA Y PRODUCTO</text>
+  <text x="446" y="154" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.5" text-anchor="end">PIDE</text>
+  <text x="520" y="154" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.5" text-anchor="end">HAY</text>
+  <text x="620" y="154" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.5" text-anchor="end">SURTIR</text>
+
+  <!-- Pedido 1 -->
+  <text x="44" y="192" font-size="13.5" fill="#111111">Sartén antiadherente 24 cm</text>
+  <text x="44" y="210" font-size="11" fill="#767676">Tienda Centro · llegó al mínimo</text>
+  <text x="446" y="198" font-size="13.5" fill="#111111" text-anchor="end">10</text>
+  <text x="520" y="198" font-size="13.5" fill="#767676" text-anchor="end">120</text>
+  <rect x="546" y="178" width="74" height="34" rx="6" fill="#FFFFFF" stroke="#555555"/>
+  <text x="583" y="200" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">10</text>
+  <line x1="44" y1="232" x2="620" y2="232" stroke="#F2F2F2"/>
+
+  <!-- Pedido 2 -->
+  <rect x="32" y="240" width="600" height="80" rx="6" fill="#F7F7F7"/>
+  <text x="44" y="272" font-size="13.5" fill="#111111">Juguete didáctico</text>
+  <text x="44" y="290" font-size="11" fill="#767676">Tienda Norte · llegó al mínimo</text>
+  <text x="44" y="310" font-size="11" font-weight="600" fill="#111111">Faltan 4 piezas · el sistema sugiere traspaso desde Tienda Sur</text>
+  <text x="446" y="278" font-size="13.5" fill="#111111" text-anchor="end">12</text>
+  <text x="520" y="278" font-size="13.5" fill="#767676" text-anchor="end">8</text>
+  <rect x="546" y="258" width="74" height="34" rx="6" fill="#FFFFFF" stroke="#555555"/>
+  <text x="583" y="280" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">8</text>
+
+  <!-- Pedido 3 -->
+  <text x="44" y="358" font-size="13.5" fill="#111111">Set de jardinería 3 piezas</text>
+  <text x="44" y="376" font-size="11" fill="#767676">Tienda Sur · llegó al mínimo</text>
+  <text x="446" y="364" font-size="13.5" fill="#111111" text-anchor="end">15</text>
+  <text x="520" y="364" font-size="13.5" fill="#767676" text-anchor="end">60</text>
+  <rect x="546" y="344" width="74" height="34" rx="6" fill="#FFFFFF" stroke="#555555"/>
+  <text x="583" y="366" font-size="14" font-weight="700" fill="#111111" text-anchor="middle">15</text>
+  <line x1="44" y1="398" x2="620" y2="398" stroke="#F2F2F2"/>
+
+  <!-- Pedido 4 -->
+  <rect x="32" y="406" width="600" height="80" rx="6" fill="#F7F7F7"/>
+  <text x="44" y="438" font-size="13.5" fill="#111111">Manguera para jardín 15 m</text>
+  <text x="44" y="456" font-size="11" fill="#767676">Tienda Centro · sin existencia en tienda</text>
+  <text x="44" y="476" font-size="11" font-weight="600" fill="#111111">Sin existencia en CEDIS · traspaso sugerido desde Tienda Norte</text>
+  <text x="446" y="444" font-size="13.5" fill="#111111" text-anchor="end">6</text>
+  <text x="520" y="444" font-size="13.5" fill="#767676" text-anchor="end">0</text>
+  <rect x="546" y="424" width="74" height="34" rx="6" fill="#F2F2F2" stroke="#E0E0E0"/>
+  <text x="583" y="446" font-size="14" font-weight="700" fill="#767676" text-anchor="middle">0</text>
+
+  <rect x="44" y="516" width="576" height="60" rx="8" fill="#111111"/>
+  <text x="68" y="553" font-size="16" font-weight="700" fill="#FFFFFF">Confirmar envío a las tiendas</text>
+  <text x="596" y="553" font-size="14" font-weight="600" fill="#BDBDBD" text-anchor="end">F1</text>
+
+  <rect x="44" y="592" width="576" height="88" rx="8" fill="#F2F2F2"/>
+  <text x="68" y="620" font-size="11.5" fill="#767676">Al confirmar, el sistema registra qué se envió, a qué tienda</text>
+  <text x="68" y="640" font-size="11.5" fill="#767676">y quién lo autorizó. La tienda escanea al recibir y el sistema</text>
+  <text x="68" y="660" font-size="11.5" fill="#767676">compara las dos cifras.</text>
+
+  <!-- RECEPCIÓN COMPARADA -->
+  <rect x="664" y="88" width="592" height="612" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2"/>
+  <path d="M 664 98 a 10 10 0 0 1 10 -10 h 572 a 10 10 0 0 1 10 10 v 34 h -592 z" fill="#F2F2F2"/>
+  <text x="684" y="120" font-size="12.5" font-weight="700" fill="#111111" letter-spacing="0.6">RECEPCIÓN COMPARADA · ENVÍO ENV-0451</text>
+  <text x="684" y="154" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.5">PRODUCTO</text>
+  <text x="1010" y="154" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.5" text-anchor="end">ENVIADO</text>
+  <text x="1110" y="154" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.5" text-anchor="end">RECIBIDO</text>
+  <text x="1232" y="154" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.5" text-anchor="end">DIFERENCIA</text>
+
+  <text x="684" y="196" font-size="13.5" fill="#111111">Juego de platos 6 piezas</text>
+  <text x="1010" y="196" font-size="13.5" fill="#111111" text-anchor="end">24</text>
+  <text x="1110" y="196" font-size="13.5" fill="#111111" text-anchor="end">24</text>
+  <text x="1232" y="196" font-size="13.5" fill="#767676" text-anchor="end">0</text>
+  <line x1="684" y1="216" x2="1232" y2="216" stroke="#F2F2F2"/>
+
+  <rect x="672" y="226" width="576" height="62" rx="6" fill="#F7F7F7"/>
+  <text x="684" y="256" font-size="13.5" fill="#111111">Sartén antiadherente 24 cm</text>
+  <text x="684" y="274" font-size="11" fill="#767676">Se avisa al encargado de la tienda</text>
+  <text x="1010" y="262" font-size="13.5" fill="#111111" text-anchor="end">30</text>
+  <text x="1110" y="262" font-size="13.5" fill="#111111" text-anchor="end">28</text>
+  <rect x="1148" y="246" width="84" height="26" rx="13" fill="#111111"/>
+  <text x="1190" y="263" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Faltan 2</text>
+
+  <text x="684" y="326" font-size="13.5" fill="#111111">Playera cuello redondo</text>
+  <text x="1010" y="326" font-size="13.5" fill="#111111" text-anchor="end">12</text>
+  <text x="1110" y="326" font-size="13.5" fill="#111111" text-anchor="end">12</text>
+  <text x="1232" y="326" font-size="13.5" fill="#767676" text-anchor="end">0</text>
+  <line x1="684" y1="346" x2="1232" y2="346" stroke="#F2F2F2"/>
+
+  <rect x="672" y="356" width="576" height="62" rx="6" fill="#F7F7F7"/>
+  <text x="684" y="386" font-size="13.5" fill="#111111">Set de jardinería 3 piezas</text>
+  <text x="684" y="404" font-size="11" fill="#767676">Se avisa al encargado de la tienda</text>
+  <text x="1010" y="392" font-size="13.5" fill="#111111" text-anchor="end">12</text>
+  <text x="1110" y="392" font-size="13.5" fill="#111111" text-anchor="end">13</text>
+  <rect x="1148" y="376" width="84" height="26" rx="13" fill="#767676"/>
+  <text x="1190" y="393" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Sobra 1</text>
+
+  <!-- TOTALES DE LA COMPARACIÓN -->
+  <rect x="684" y="442" width="548" height="112" rx="8" fill="#F2F2F2"/>
+  <text x="708" y="474" font-size="12" fill="#767676">Piezas enviadas</text>
+  <text x="708" y="508" font-size="26" font-weight="700" fill="#111111">78</text>
+  <text x="900" y="474" font-size="12" fill="#767676">Piezas recibidas</text>
+  <text x="900" y="508" font-size="26" font-weight="700" fill="#111111">77</text>
+  <text x="1208" y="474" font-size="12" fill="#767676" text-anchor="end">Diferencia</text>
+  <text x="1208" y="508" font-size="26" font-weight="700" fill="#111111" text-anchor="end">−1</text>
+  <text x="708" y="538" font-size="11" fill="#767676">La diferencia queda registrada con fecha, tienda y responsable.</text>
+
+  <rect x="684" y="574" width="266" height="56" rx="8" fill="#111111"/>
+  <text x="817" y="608" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Cerrar recepción</text>
+  <rect x="966" y="574" width="266" height="56" rx="8" fill="#FFFFFF" stroke="#555555"/>
+  <text x="1099" y="608" font-size="15" font-weight="600" fill="#111111" text-anchor="middle">Volver a contar</text>
+
+  <text x="684" y="662" font-size="11.5" fill="#767676">Ningún envío se cierra sin comparar lo enviado con lo recibido.</text>
+
+  <!-- PIE -->
+  <rect x="0" y="744" width="1280" height="56" fill="#F2F2F2"/>
+  <text x="28" y="770" font-size="11.5" font-weight="600" fill="#111111">F1</text>
+  <text x="50" y="770" font-size="11.5" fill="#767676">Confirmar envío</text>
+  <text x="180" y="770" font-size="11.5" font-weight="600" fill="#111111">F2</text>
+  <text x="202" y="770" font-size="11.5" fill="#767676">Ver traspasos sugeridos</text>
+  <text x="372" y="770" font-size="11.5" font-weight="600" fill="#111111">F3</text>
+  <text x="394" y="770" font-size="11.5" fill="#767676">Historial de envíos</text>
+  <text x="1252" y="770" font-size="11.5" fill="#767676" text-anchor="end">4 pedidos pendientes de surtir</text>
+</svg>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1280" height="800" fill="#FAFAFA"/>
+
+  <!-- BARRA SUPERIOR -->
+  <rect x="0" y="0" width="1280" height="64" fill="#111111"/>
+  <text x="28" y="41" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Tooj</text>
+  <line x1="96" y1="18" x2="96" y2="46" stroke="#444444"/>
+  <text x="112" y="40" font-size="13" fill="#BDBDBD">Tienda Centro · Nuevo producto</text>
+  <rect x="800" y="18" width="240" height="28" rx="14" fill="#767676"/>
+  <text x="920" y="37" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Catálogo único · 6 tiendas</text>
+  <text x="1252" y="40" font-size="12" fill="#BDBDBD" text-anchor="end">Luis R. · Almacén · 13:42</text>
+
+  <!-- FORMULARIO -->
+  <rect x="24" y="88" width="832" height="612" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <path d="M 24 98 a 10 10 0 0 1 10 -10 h 812 a 10 10 0 0 1 10 10 v 30 h -832 z" fill="#F2F2F2"/>
+  <text x="48" y="118" font-size="12.5" font-weight="700" fill="#111111" letter-spacing="0.6">DATOS DEL PRODUCTO</text>
+
+  <!-- Nombre -->
+  <text x="48" y="162" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">NOMBRE DEL PRODUCTO</text>
+  <rect x="48" y="172" width="760" height="44" rx="6" fill="#FAFAFA" stroke="#E0E0E0"/>
+  <text x="68" y="200" font-size="14" fill="#111111">Regadera metálica 1.5 L</text>
+
+  <!-- Código -->
+  <text x="48" y="248" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">CÓDIGO DE BARRAS</text>
+  <rect x="48" y="258" width="420" height="44" rx="6" fill="#FAFAFA" stroke="#E0E0E0"/>
+  <text x="68" y="286" font-size="14" fill="#111111">7501234500901</text>
+  <rect x="484" y="258" width="150" height="44" rx="6" fill="#555555"/>
+  <text x="559" y="286" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Escanear</text>
+  <rect x="650" y="258" width="158" height="44" rx="6" fill="#FFFFFF" stroke="#111111"/>
+  <text x="729" y="286" font-size="13" font-weight="600" fill="#111111" text-anchor="middle">Generar código</text>
+
+  <!-- Costo, margen y precio -->
+  <text x="48" y="334" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">COSTO</text>
+  <rect x="48" y="344" width="200" height="44" rx="6" fill="#FAFAFA" stroke="#111111"/>
+  <text x="68" y="372" font-size="14" fill="#111111">$129.00</text>
+
+  <text x="280" y="334" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">MARGEN</text>
+  <rect x="280" y="344" width="140" height="44" rx="6" fill="#F2F2F2"/>
+  <text x="300" y="372" font-size="14" fill="#767676">40 %</text>
+
+  <text x="452" y="334" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">PRECIO DE VENTA · LO CALCULA EL SISTEMA</text>
+  <rect x="452" y="344" width="356" height="44" rx="6" fill="#F2F2F2"/>
+  <text x="472" y="374" font-size="19" font-weight="700" fill="#111111">$180.60</text>
+
+  <!-- Categoría, mínimo, caja -->
+  <text x="48" y="420" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">CATEGORÍA</text>
+  <rect x="48" y="430" width="360" height="44" rx="6" fill="#FAFAFA" stroke="#E0E0E0"/>
+  <text x="68" y="458" font-size="14" fill="#111111">Jardinería</text>
+  <path d="M 376 449 l 8 8 l 8 -8" fill="none" stroke="#767676" stroke-width="1.6"/>
+
+  <text x="440" y="420" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">EXISTENCIA MÍNIMA</text>
+  <rect x="440" y="430" width="160" height="44" rx="6" fill="#FAFAFA" stroke="#E0E0E0"/>
+  <text x="460" y="458" font-size="14" fill="#111111">6</text>
+
+  <text x="632" y="420" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">PIEZAS POR CAJA</text>
+  <rect x="632" y="430" width="176" height="44" rx="6" fill="#FAFAFA" stroke="#E0E0E0"/>
+  <text x="652" y="458" font-size="14" fill="#111111">12</text>
+
+  <!-- Talla y color -->
+  <text x="48" y="506" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">TALLA</text>
+  <rect x="48" y="516" width="360" height="44" rx="6" fill="#F2F2F2"/>
+  <text x="68" y="544" font-size="13.5" fill="#767676">No aplica · solo para ropa</text>
+
+  <text x="440" y="506" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.5">COLOR</text>
+  <rect x="440" y="516" width="368" height="44" rx="6" fill="#F2F2F2"/>
+  <text x="460" y="544" font-size="13.5" fill="#767676">No aplica · solo para ropa</text>
+
+  <line x1="48" y1="596" x2="808" y2="596" stroke="#EEEEEE"/>
+  <text x="48" y="626" font-size="12" fill="#767676">El producto se dará de alta con el mismo nombre, código y precio en las 6 tiendas.</text>
+  <text x="48" y="648" font-size="12" fill="#767676">El precio nunca se escribe a mano: sale del costo más el margen que define administración.</text>
+  <text x="48" y="676" font-size="12" fill="#111111" font-weight="600">Si el código ya existe, el sistema lo avisa antes de guardar.</text>
+
+  <!-- PANEL: QUÉ PASA AL GUARDAR -->
+  <rect x="880" y="88" width="376" height="250" rx="10" fill="#FFFFFF" stroke="#111111"/>
+  <text x="904" y="122" font-size="12.5" font-weight="700" fill="#111111" letter-spacing="0.6">AL GUARDAR</text>
+  <circle cx="912" cy="158" r="4" fill="#111111"/>
+  <text x="928" y="163" font-size="12.5" fill="#111111">Queda pendiente de aprobación</text>
+  <text x="928" y="182" font-size="11.5" fill="#767676">de la administración central.</text>
+  <circle cx="912" cy="214" r="4" fill="#111111"/>
+  <text x="928" y="219" font-size="12.5" fill="#111111">La tienda puede recibirlo en almacén</text>
+  <text x="928" y="238" font-size="11.5" fill="#767676">mientras tanto.</text>
+  <circle cx="912" cy="270" r="4" fill="#111111"/>
+  <text x="928" y="275" font-size="12.5" fill="#111111">Al aprobarse, se publica igual</text>
+  <text x="928" y="294" font-size="11.5" fill="#767676">para todas las tiendas.</text>
+  <text x="904" y="322" font-size="11" fill="#767676">Así el catálogo se mantiene limpio y sin duplicados.</text>
+
+  <!-- PANEL: PRECIO -->
+  <rect x="880" y="356" width="376" height="186" rx="10" fill="#F2F2F2"/>
+  <text x="904" y="390" font-size="12.5" font-weight="700" fill="#111111" letter-spacing="0.6">CÁLCULO DEL PRECIO</text>
+  <text x="904" y="422" font-size="12.5" fill="#767676">Costo</text>
+  <text x="1232" y="422" font-size="12.5" fill="#111111" text-anchor="end">$129.00</text>
+  <text x="904" y="450" font-size="12.5" fill="#767676">Margen</text>
+  <text x="1232" y="450" font-size="12.5" fill="#111111" text-anchor="end">40 %</text>
+  <line x1="904" y1="468" x2="1232" y2="468" stroke="#E0E0E0"/>
+  <text x="904" y="496" font-size="12.5" font-weight="600" fill="#767676">Precio de venta</text>
+  <text x="1232" y="524" font-size="30" font-weight="700" fill="#111111" text-anchor="end">$180.60</text>
+
+  <!-- BOTONES -->
+  <rect x="880" y="566" width="376" height="62" rx="8" fill="#111111"/>
+  <text x="904" y="597" font-size="15" font-weight="700" fill="#FFFFFF">Guardar y enviar</text>
+  <text x="904" y="615" font-size="11.5" fill="#BDBDBD">a aprobación</text>
+  <text x="1232" y="604" font-size="14" font-weight="600" fill="#BDBDBD" text-anchor="end">F1</text>
+
+  <rect x="880" y="642" width="376" height="54" rx="8" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <text x="904" y="675" font-size="14" font-weight="600" fill="#111111">Cancelar</text>
+  <text x="1232" y="675" font-size="13" font-weight="600" fill="#767676" text-anchor="end">Esc</text>
+
+  <!-- PIE -->
+  <rect x="0" y="744" width="1280" height="56" fill="#F2F2F2"/>
+  <text x="28" y="770" font-size="11.5" font-weight="600" fill="#111111">F1</text>
+  <text x="50" y="770" font-size="11.5" fill="#767676">Guardar</text>
+  <text x="140" y="770" font-size="11.5" font-weight="600" fill="#111111">F2</text>
+  <text x="162" y="770" font-size="11.5" fill="#767676">Escanear código</text>
+  <text x="300" y="770" font-size="11.5" font-weight="600" fill="#111111">F3</text>
+  <text x="322" y="770" font-size="11.5" fill="#767676">Generar código</text>
+  <text x="456" y="770" font-size="11.5" font-weight="600" fill="#111111">F4</text>
+  <text x="478" y="770" font-size="11.5" fill="#767676">Buscar si ya existe</text>
+  <text x="1252" y="770" font-size="11.5" fill="#767676" text-anchor="end">Alta de producto · pendiente de aprobación</text>
+</svg>

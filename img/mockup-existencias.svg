@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1280" height="800" fill="#FAFAFA"/>
+
+  <!-- BARRA SUPERIOR -->
+  <rect x="0" y="0" width="1280" height="64" fill="#111111"/>
+  <text x="28" y="41" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Tooj</text>
+  <line x1="96" y1="18" x2="96" y2="46" stroke="#444444"/>
+  <text x="112" y="40" font-size="13" fill="#BDBDBD">Tienda Centro · Existencias</text>
+  <rect x="790" y="18" width="250" height="28" rx="14" fill="#767676"/>
+  <text x="915" y="37" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">12 productos bajo el mínimo</text>
+  <text x="1252" y="40" font-size="12" fill="#BDBDBD" text-anchor="end">Sofía T. · Jefa de tienda</text>
+
+  <!-- TARJETAS DE RESUMEN -->
+  <rect x="24" y="88" width="400" height="92" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <text x="48" y="120" font-size="12" fill="#767676">Productos en catálogo</text>
+  <text x="48" y="158" font-size="30" font-weight="700" fill="#111111">3,012</text>
+
+  <rect x="440" y="88" width="400" height="92" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2"/>
+  <text x="464" y="120" font-size="12" fill="#767676">Bajo el mínimo</text>
+  <text x="464" y="158" font-size="30" font-weight="700" fill="#111111">12</text>
+  <text x="816" y="158" font-size="11.5" fill="#767676" text-anchor="end">requieren resurtido</text>
+
+  <rect x="856" y="88" width="400" height="92" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <text x="880" y="120" font-size="12" fill="#767676">Pedidos automáticos de hoy</text>
+  <text x="880" y="158" font-size="30" font-weight="700" fill="#111111">8</text>
+  <text x="1232" y="158" font-size="11.5" fill="#767676" text-anchor="end">enviados al CEDIS</text>
+
+  <!-- BÚSQUEDA Y FILTROS -->
+  <rect x="24" y="200" width="520" height="44" rx="8" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <circle cx="52" cy="222" r="7" fill="none" stroke="#767676" stroke-width="1.6"/>
+  <line x1="57" y1="227" x2="63" y2="233" stroke="#767676" stroke-width="1.6"/>
+  <text x="78" y="227" font-size="13" fill="#767676">Buscar por nombre o código de barras…</text>
+
+  <rect x="560" y="200" width="96" height="44" rx="8" fill="#111111"/>
+  <text x="608" y="227" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Todos</text>
+  <rect x="668" y="200" width="160" height="44" rx="8" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <text x="748" y="227" font-size="12.5" fill="#111111" text-anchor="middle">Bajo el mínimo</text>
+  <rect x="840" y="200" width="160" height="44" rx="8" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <text x="920" y="227" font-size="12.5" fill="#111111" text-anchor="middle">Sin existencia</text>
+
+  <!-- TABLA -->
+  <rect x="24" y="264" width="1232" height="436" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <path d="M 24 274 a 10 10 0 0 1 10 -10 h 1212 a 10 10 0 0 1 10 10 v 28 h -1232 z" fill="#F2F2F2"/>
+  <text x="48" y="292" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6">PRODUCTO</text>
+  <text x="520" y="292" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6">CÓDIGO</text>
+  <text x="740" y="292" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6" text-anchor="end">EXISTENCIA</text>
+  <text x="850" y="292" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6" text-anchor="end">MÍNIMO</text>
+  <text x="920" y="292" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6">ESTADO</text>
+
+  <!-- Fila 1 -->
+  <rect x="32" y="306" width="1216" height="60" rx="6" fill="#F7F7F7"/>
+  <text x="48" y="342" font-size="13.5" fill="#111111">Sartén antiadherente 24 cm</text>
+  <text x="520" y="342" font-size="11.5" fill="#767676">7501234500456</text>
+  <text x="740" y="342" font-size="15" font-weight="700" fill="#111111" text-anchor="end">4</text>
+  <text x="850" y="342" font-size="13.5" fill="#767676" text-anchor="end">10</text>
+  <rect x="920" y="326" width="196" height="24" rx="12" fill="#111111"/>
+  <text x="1018" y="342" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Pedido enviado al CEDIS</text>
+
+  <!-- Fila 2 -->
+  <rect x="32" y="370" width="1216" height="60" rx="6" fill="#F7F7F7"/>
+  <text x="48" y="400" font-size="13.5" fill="#111111">Set de jardinería 3 piezas</text>
+  <text x="48" y="418" font-size="10.5" fill="#767676">Jardinería</text>
+  <text x="520" y="406" font-size="11.5" fill="#767676">7501234500789</text>
+  <text x="740" y="406" font-size="15" font-weight="700" fill="#111111" text-anchor="end">7</text>
+  <text x="850" y="406" font-size="13.5" fill="#767676" text-anchor="end">10</text>
+  <rect x="920" y="390" width="150" height="24" rx="12" fill="#767676"/>
+  <text x="995" y="406" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Bajo el mínimo</text>
+
+  <!-- Fila 3 -->
+  <text x="48" y="466" font-size="13.5" fill="#111111">Playera cuello redondo</text>
+  <text x="48" y="484" font-size="10.5" fill="#767676">Talla M · Azul · Ropa</text>
+  <text x="520" y="472" font-size="11.5" fill="#767676">7501234500017</text>
+  <text x="740" y="472" font-size="15" font-weight="600" fill="#111111" text-anchor="end">38</text>
+  <text x="850" y="472" font-size="13.5" fill="#767676" text-anchor="end">15</text>
+  <text x="920" y="472" font-size="12" fill="#767676">Normal</text>
+  <line x1="48" y1="500" x2="1232" y2="500" stroke="#F2F2F2"/>
+
+  <!-- Fila 4 -->
+  <text x="48" y="536" font-size="13.5" fill="#111111">Juego de platos 6 piezas</text>
+  <text x="520" y="536" font-size="11.5" fill="#767676">7501234500123</text>
+  <text x="740" y="536" font-size="15" font-weight="600" fill="#111111" text-anchor="end">46</text>
+  <text x="850" y="536" font-size="13.5" fill="#767676" text-anchor="end">20</text>
+  <text x="920" y="536" font-size="12" fill="#767676">Normal</text>
+  <line x1="48" y1="560" x2="1232" y2="560" stroke="#F2F2F2"/>
+
+  <!-- Fila 5 -->
+  <rect x="32" y="570" width="1216" height="56" rx="6" fill="#F7F7F7"/>
+  <text x="48" y="604" font-size="13.5" fill="#111111">Juguete didáctico</text>
+  <text x="520" y="604" font-size="11.5" fill="#767676">7501234501011</text>
+  <text x="740" y="604" font-size="15" font-weight="700" fill="#111111" text-anchor="end">9</text>
+  <text x="850" y="604" font-size="13.5" fill="#767676" text-anchor="end">12</text>
+  <rect x="920" y="588" width="150" height="24" rx="12" fill="#767676"/>
+  <text x="995" y="604" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Bajo el mínimo</text>
+
+  <!-- Fila 6 -->
+  <text x="48" y="666" font-size="13.5" fill="#111111">Manguera para jardín 15 m</text>
+  <text x="520" y="666" font-size="11.5" fill="#767676">7501234500222</text>
+  <text x="740" y="666" font-size="15" font-weight="700" fill="#111111" text-anchor="end">0</text>
+  <text x="850" y="666" font-size="13.5" fill="#767676" text-anchor="end">6</text>
+  <rect x="920" y="650" width="196" height="24" rx="12" fill="#111111"/>
+  <text x="1018" y="666" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Sin existencia · traspaso</text>
+
+  <!-- PIE -->
+  <rect x="0" y="744" width="1280" height="56" fill="#F2F2F2"/>
+  <text x="28" y="770" font-size="11.5" fill="#767676">Cuando un producto llega a su mínimo, el pedido al CEDIS se genera solo.</text>
+  <text x="700" y="770" font-size="11.5" font-weight="600" fill="#111111">F5</text>
+  <text x="722" y="770" font-size="11.5" fill="#767676">Buscar</text>
+  <text x="800" y="770" font-size="11.5" font-weight="600" fill="#111111">F6</text>
+  <text x="822" y="770" font-size="11.5" fill="#767676">Ver pedidos enviados</text>
+  <text x="980" y="770" font-size="11.5" font-weight="600" fill="#111111">F7</text>
+  <text x="1002" y="770" font-size="11.5" fill="#767676">Ajustar mínimo · requiere permiso</text>
+</svg>

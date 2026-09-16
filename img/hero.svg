@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1280" height="420" rx="18" fill="#111111"/>
+
+  <!-- MONOGRAMA -->
+  <circle cx="250" cy="210" r="118" fill="none" stroke="#2A2A2A" stroke-width="1.5"/>
+  <circle cx="250" cy="210" r="86" fill="#1A1A1A"/>
+  <text x="250" y="252" font-size="112" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="-2">T</text>
+
+  <!-- TEXTO -->
+  <text x="470" y="128" font-size="13" font-weight="600" fill="#767676" letter-spacing="3.5">SIN INTERNET · MULTITIENDA · WINDOWS</text>
+  <text x="470" y="234" font-size="88" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Tooj</text>
+  <text x="470" y="288" font-size="30" font-weight="600" fill="#FFFFFF">Todo cuadra.</text>
+  <text x="470" y="324" font-size="15" fill="#BDBDBD">Punto de venta e inventario para cadenas de tiendas.</text>
+  <line x1="470" y1="348" x2="1180" y2="348" stroke="#2A2A2A"/>
+  <text x="470" y="376" font-size="13" fill="#767676">Vende sin internet · Las existencias cuadran · De la caja al almacén central</text>
+</svg>

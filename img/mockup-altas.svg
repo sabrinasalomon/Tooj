@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1280" height="800" fill="#FAFAFA"/>
+
+  <!-- BARRA SUPERIOR -->
+  <rect x="0" y="0" width="1280" height="64" fill="#111111"/>
+  <text x="28" y="41" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Tooj</text>
+  <line x1="96" y1="18" x2="96" y2="46" stroke="#444444"/>
+  <text x="112" y="40" font-size="13" fill="#BDBDBD">Tienda Centro · Almacén</text>
+  <rect x="800" y="18" width="240" height="28" rx="14" fill="#767676"/>
+  <text x="920" y="37" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Modo ALTAS activado</text>
+  <text x="1252" y="40" font-size="12" fill="#BDBDBD" text-anchor="end">Luis R. · Almacén · 13:42</text>
+
+  <!-- TARJETA DE MOVIMIENTOS -->
+  <rect x="24" y="88" width="832" height="480" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <path d="M 24 98 a 10 10 0 0 1 10 -10 h 812 a 10 10 0 0 1 10 10 v 28 h -832 z" fill="#F2F2F2"/>
+  <text x="44" y="116" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6">CÓDIGO</text>
+  <text x="200" y="116" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6">PRODUCTO</text>
+  <text x="560" y="116" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6">FORMA DE ALTA</text>
+  <text x="762" y="116" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6" text-anchor="end">PIEZAS</text>
+  <text x="836" y="116" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6" text-anchor="end">EXIST.</text>
+
+  <!-- Fila 1 -->
+  <rect x="32" y="130" width="816" height="56" rx="6" fill="#F7F7F7"/>
+  <text x="44" y="162" font-size="11.5" fill="#767676">7501234500123</text>
+  <text x="200" y="162" font-size="13.5" fill="#111111">Juego de platos 6 piezas</text>
+  <text x="560" y="162" font-size="12" fill="#767676">Código de caja · 24 pzas</text>
+  <text x="762" y="162" font-size="14" font-weight="700" fill="#111111" text-anchor="end">+24</text>
+  <text x="836" y="162" font-size="13.5" fill="#111111" text-anchor="end">46</text>
+
+  <!-- Fila 2 -->
+  <text x="44" y="218" font-size="11.5" fill="#767676">7501234500017</text>
+  <text x="200" y="214" font-size="13.5" fill="#111111">Playera cuello redondo</text>
+  <text x="200" y="232" font-size="10.5" fill="#767676">Talla M · Azul</text>
+  <text x="560" y="218" font-size="12" fill="#767676">Pieza por pieza</text>
+  <text x="762" y="218" font-size="14" font-weight="700" fill="#111111" text-anchor="end">+12</text>
+  <text x="836" y="218" font-size="13.5" fill="#111111" text-anchor="end">38</text>
+  <line x1="44" y1="242" x2="836" y2="242" stroke="#F2F2F2"/>
+
+  <!-- Fila 3 -->
+  <text x="44" y="274" font-size="11.5" fill="#767676">7501234500456</text>
+  <text x="200" y="274" font-size="13.5" fill="#111111">Sartén antiadherente 24 cm</text>
+  <text x="560" y="274" font-size="12" fill="#767676">Cantidad capturada</text>
+  <text x="762" y="274" font-size="14" font-weight="700" fill="#111111" text-anchor="end">+30</text>
+  <text x="836" y="274" font-size="13.5" fill="#111111" text-anchor="end">52</text>
+  <line x1="44" y1="298" x2="836" y2="298" stroke="#F2F2F2"/>
+
+  <!-- Fila 4 -->
+  <text x="44" y="330" font-size="11.5" fill="#767676">7501234500789</text>
+  <text x="200" y="330" font-size="13.5" fill="#111111">Set de jardinería 3 piezas</text>
+  <text x="560" y="330" font-size="12" fill="#767676">Código de caja · 12 pzas</text>
+  <text x="762" y="330" font-size="14" font-weight="700" fill="#111111" text-anchor="end">+12</text>
+  <text x="836" y="330" font-size="13.5" fill="#111111" text-anchor="end">19</text>
+  <line x1="44" y1="354" x2="836" y2="354" stroke="#F2F2F2"/>
+
+  <!-- Fila 5 -->
+  <text x="44" y="386" font-size="11.5" fill="#767676">7501234501011</text>
+  <text x="200" y="386" font-size="13.5" fill="#111111">Juguete didáctico</text>
+  <text x="560" y="386" font-size="12" fill="#767676">Pieza por pieza</text>
+  <text x="762" y="386" font-size="14" font-weight="700" fill="#111111" text-anchor="end">+8</text>
+  <text x="836" y="386" font-size="13.5" fill="#111111" text-anchor="end">24</text>
+  <line x1="44" y1="410" x2="836" y2="410" stroke="#F2F2F2"/>
+
+  <text x="44" y="440" font-size="12" fill="#767676">Escanee el siguiente producto…</text>
+  <rect x="222" y="427" width="2" height="16" fill="#555555"/>
+
+  <!-- ÚLTIMO ESCANEADO -->
+  <rect x="40" y="466" width="800" height="86" rx="8" fill="#F2F2F2"/>
+  <text x="60" y="492" font-size="10.5" font-weight="600" fill="#767676" letter-spacing="0.6">ÚLTIMO PRODUCTO ESCANEADO</text>
+  <text x="60" y="522" font-size="20" font-weight="700" fill="#111111">Juego de platos 6 piezas</text>
+  <text x="60" y="542" font-size="11.5" fill="#767676">Se sumaron 24 piezas con el código de la caja</text>
+  <text x="820" y="512" font-size="11.5" fill="#767676" text-anchor="end">Existencia en tienda</text>
+  <text x="820" y="542" font-size="26" font-weight="700" fill="#111111" text-anchor="end">46</text>
+
+  <!-- PANEL: INTERRUPTOR -->
+  <rect x="880" y="88" width="376" height="146" rx="10" fill="#FFFFFF" stroke="#555555" stroke-width="2"/>
+  <text x="904" y="120" font-size="13" font-weight="600" fill="#767676" letter-spacing="0.6">MODO ALTAS</text>
+  <rect x="904" y="136" width="80" height="38" rx="19" fill="#111111"/>
+  <circle cx="965" cy="155" r="15" fill="#FFFFFF"/>
+  <text x="1000" y="162" font-size="19" font-weight="700" fill="#111111">ACTIVADO</text>
+  <text x="904" y="200" font-size="11.5" fill="#767676">Con el modo apagado, escanear no suma</text>
+  <text x="904" y="218" font-size="11.5" fill="#767676">nada a la existencia.</text>
+
+  <!-- PANEL: FORMAS DE ALTA -->
+  <rect x="880" y="248" width="376" height="164" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <text x="904" y="280" font-size="13" font-weight="600" fill="#767676" letter-spacing="0.6">FORMAS DE DAR DE ALTA</text>
+  <circle cx="912" cy="312" r="5" fill="#555555"/>
+  <text x="928" y="317" font-size="12.5" fill="#111111">Pieza por pieza</text>
+  <circle cx="912" cy="344" r="5" fill="#555555"/>
+  <text x="928" y="349" font-size="12.5" fill="#111111">Escanear y capturar la cantidad</text>
+  <circle cx="912" cy="376" r="5" fill="#555555"/>
+  <text x="928" y="381" font-size="12.5" fill="#111111">Código de caja con su equivalencia</text>
+
+  <!-- PANEL: RESUMEN -->
+  <rect x="880" y="426" width="376" height="126" rx="10" fill="#F2F2F2"/>
+  <text x="904" y="458" font-size="12.5" fill="#767676">Piezas dadas de alta en esta sesión</text>
+  <text x="1232" y="496" font-size="40" font-weight="700" fill="#111111" text-anchor="end">86</text>
+  <text x="904" y="530" font-size="12" fill="#767676">Productos distintos: 5</text>
+
+  <!-- BOTÓN -->
+  <rect x="880" y="570" width="376" height="62" rx="8" fill="#111111"/>
+  <text x="908" y="608" font-size="17" font-weight="700" fill="#FFFFFF">Terminar altas</text>
+  <text x="1232" y="608" font-size="14" font-weight="600" fill="#BDBDBD" text-anchor="end">F10</text>
+
+  <!-- BUSCADOR DE PRODUCTOS -->
+  <rect x="24" y="584" width="832" height="132" rx="10" fill="#FFFFFF" stroke="#E0E0E0"/>
+  <text x="44" y="612" font-size="11" font-weight="600" fill="#767676" letter-spacing="0.6">BUSCAR PRODUCTO</text>
+  <text x="836" y="612" font-size="11" font-weight="600" fill="#111111" text-anchor="end">F4</text>
+  <rect x="44" y="624" width="460" height="40" rx="8" fill="#FAFAFA" stroke="#E0E0E0"/>
+  <circle cx="70" cy="643" r="7" fill="none" stroke="#767676" stroke-width="1.6"/>
+  <line x1="75" y1="648" x2="81" y2="654" stroke="#767676" stroke-width="1.6"/>
+  <text x="96" y="649" font-size="13" fill="#111111">sartén</text>
+  <rect x="140" y="634" width="2" height="18" fill="#555555"/>
+  <text x="44" y="692" font-size="10.5" fill="#767676">Escriba parte del nombre o pase el escáner para</text>
+  <text x="44" y="708" font-size="10.5" fill="#767676">ver si el producto ya existe y cuántas piezas hay.</text>
+
+  <text x="528" y="636" font-size="13" fill="#111111">Sartén antiadherente 24 cm</text>
+  <text x="528" y="653" font-size="10.5" fill="#767676">7501234500456</text>
+  <text x="836" y="645" font-size="15" font-weight="700" fill="#111111" text-anchor="end">52</text>
+  <line x1="528" y1="668" x2="836" y2="668" stroke="#F2F2F2"/>
+  <text x="528" y="691" font-size="13" fill="#111111">Sartén hondo 28 cm</text>
+  <text x="528" y="708" font-size="10.5" fill="#767676">7501234500457</text>
+  <text x="836" y="700" font-size="15" font-weight="700" fill="#111111" text-anchor="end">18</text>
+
+  <!-- PIE -->
+  <rect x="0" y="744" width="1280" height="56" fill="#F2F2F2"/>
+  <text x="28" y="770" font-size="11.5" font-weight="600" fill="#111111">F2</text>
+  <text x="50" y="770" font-size="11.5" fill="#767676">Capturar cantidad</text>
+  <text x="190" y="770" font-size="11.5" font-weight="600" fill="#111111">F3</text>
+  <text x="212" y="770" font-size="11.5" fill="#767676">Deshacer último movimiento</text>
+  <text x="400" y="770" font-size="11.5" font-weight="600" fill="#111111">F4</text>
+  <text x="422" y="770" font-size="11.5" fill="#767676">Buscar producto</text>
+  <text x="552" y="770" font-size="11.5" font-weight="600" fill="#111111">F10</text>
+  <text x="580" y="770" font-size="11.5" fill="#767676">Terminar altas</text>
+  <text x="1252" y="770" font-size="11.5" fill="#767676" text-anchor="end">Sesión de altas ALT-0123</text>
+</svg>
