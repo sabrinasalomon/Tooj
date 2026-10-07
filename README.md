@@ -75,6 +75,18 @@ La tienda captura el producto y queda pendiente de aprobación de la administrac
 
 ![Alta de producto nuevo](img/mockup-producto-nuevo.svg)
 
+### Almacén desde el teléfono
+
+El personal de almacén da de alta y de baja la mercancía con un teléfono Android, usando la cámara como escáner. Cada baja lleva su motivo y queda registrada con fecha y responsable. Las cajas siguen trabajando en Windows.
+
+![App de almacén en Android](img/mockup-android-almacen.svg)
+
+### Totales de venta en la web
+
+Una página privada muestra los totales de venta de todas las tiendas: del día o por periodo, en efectivo y con tarjeta, con devoluciones y la hora en que cada tienda envió su información. Es solo de consulta.
+
+![Totales de venta en la web](img/mockup-web-totales.svg)
+
 <br>
 
 ## Cómo está construido
