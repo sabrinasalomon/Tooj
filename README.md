@@ -81,12 +81,6 @@ El personal de almacén da de alta y de baja la mercancía con un teléfono Andr
 
 ![App de almacén en Android](img/mockup-android-almacen.svg)
 
-### Totales de venta en la web
-
-Una página privada muestra los totales de venta de todas las tiendas: del día o por periodo, en efectivo y con tarjeta, con devoluciones y la hora en que cada tienda envió su información. Es solo de consulta.
-
-![Totales de venta en la web](img/mockup-web-totales.svg)
-
 <br>
 
 ## Cómo está construido
